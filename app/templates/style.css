@@ -11,9 +11,8 @@ body {
     line-height: 1;
     font-size: 20px;
     text-align: center;
-    background-color:rgb(3,3,3);
+    background-color:rgb(255,255,255);
     opacity:1.5;
-
 }
 a {
     text-decoration: none;
@@ -512,8 +511,6 @@ button.sign {
     background-color:rgb(255,255,255);
     box-shadow: 2px 2px 8px rgb(1,1,1);
 }
-
-
 
 
 
