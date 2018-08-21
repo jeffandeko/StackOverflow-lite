@@ -115,7 +115,6 @@ background-color: rgb(0,255,0);
     height:100%;
     display: table;
     background-color:rgb(255,255,255);
-    background-size: cover;
     padding:0px;
 }
 
@@ -148,7 +147,7 @@ div > div {
 }
 
 .side-menu a.active {
-    background-color: rgb(3,3,3);
+    background-color: rgb(0,3,0);
     color: rgb(237,245,255)
 }
 .second_div {
@@ -158,6 +157,31 @@ div > div {
     vertical-align:middle;
 
  }
+ /* ==== Index/homepage css==============*/
+ /*search area*/
+nav.top_nav {
+    background:rgb(255,255,255);
+    min-height:50px;
+    line-height:50px;
+    position:;
+    width:100%;
+ }
+.open {
+    width:100%;
+    min-height:20px;
+    position:relative;
+}
+ form.search input[type=text] {
+    padding:10px;
+    line-height:60px;
+    font-size:15px;
+    border:2px solid black;
+    float:center;
+    width:800px;
+    background:rgb(255,255,255);
+    margin:auto;max-width:600px;
+    margin:auto;max-height:50px;
+}
 
 .second_div h1 {
     font-size: 75px;
@@ -190,6 +214,139 @@ div > div {
     text-shadow: 4px 4px 10px (21,22,27);
 }
 
+  .home2_div {
+    width:40%;
+    margin:0;
+    height:calc(100vh - 100px);
+ }
+ .home2_div h2 {
+    font-size:45px;
+    font-weight: 800;
+    line-height:0;
+    color: rgb(0,255,0);
+    text-align:left;
+
+}
+  .home_forum {
+  text-align: left;
+  margin-left:0px;
+  position:absolute;
+  border-radius: 10px;
+  width:80%;
+  padding:0%;
+}
+.done{
+    line-height:1;
+    min-height:10px;
+}
+.homeQuiz_area {
+  float:left;
+  width:100%;
+  line-height:1;
+  margin-bottom:2px;
+  background-color:rgb(250,250,250);
+  box-shadow:2px 2px 2px rgb(0,255,0);
+  padding:4px;
+  border-radius:5px;
+}
+ .the_user {
+  width:100%;
+  height:50px;
+ }
+ .likes {
+     width:100%;
+     height:50px;
+     color:rgb(0,0,255);
+}
+.likes a{
+     color:rgb(0,0,255);
+ }
+ .dislikes {
+     width:100%;
+     height:50px;
+     color:rgb(255,0,0);
+}
+ .dislikes a{
+     color:rgb(255,0,0);
+}
+.important {
+     width:100%;
+     height:50px;
+     color:rgb(0,0,255);
+}
+.important a{
+     color:rgb(255,255,0);
+  }
+ .dislikes {
+     width:100%;
+     height:50px;
+     color:rgb(255,0,0);
+}
+ .dislikes a{
+     color:rgb(255,0,0);
+}
+ .stars {
+     width:100%;
+     height:50px;
+     color:rgb(255,255,0);
+}
+ .stars a{
+     color:rgb(255,25,255);
+}
+ .datetime{
+     width:100%;
+     height:50px;
+}
+.clear {
+     clear: left; display: block;
+ }
+.the_question {
+     width:100%;
+     height:50px;
+ }
+ /*==== question details===*/
+ .answer_div{
+ }
+ .quiz_details {
+  float:center;
+  margin:5px;
+  position:absolute;
+  border-radius:10px;
+  padding:4%;
+}
+ .answer textarea {
+    width: 100%;
+    padding: 6px 15px;
+    margin: 4px 0;
+    display:inline-block;
+    border-radius:15px;
+    border: 2px solid rgb(0,0,0);
+    box-sizing: border-box;
+    opacity: 0.5;
+    font-size:25px;
+    font-weight:bold;
+    color:rgb(0,0,0);
+ }
+
+ /* material icon features */
+ .material-icons {
+  font-family:'Material Icons';
+  font-weight:normal;
+  font-style:normal;
+  font-size:64px;
+  display: inline-block;
+  line-height:1.5;
+  text-transform:none;
+  letter-spacing:normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction:ltr;
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+   -moz-osx-font-smoothing: grayscale;
+   font-feature-settings: 'liga';
+}
 .signing_button {
     display: inline-block;
     background: rgb(3,3,3);
@@ -214,7 +371,7 @@ div > div {
 .signing_button a:hover {
     display: inline-block;
     background: rgb(0,128,0);
-    color: #fff;
+    color:rgb(255,255,255);
     text-decoration: none;
     padding: 1em 2em;
     border: 1px solid rgb(0,6,6);
@@ -358,6 +515,8 @@ button.sign {
 
 
 
+
+
 /*============= footer css=================*/
 
 #footer {
@@ -366,7 +525,6 @@ button.sign {
     color: rgb(215,225,275);
     text-align:center;
     line-height:10px;
-
 }
 
 
