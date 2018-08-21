@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/jeffandeko/Stackoverflow-lite.svg?branch=master)](https://travis-ci.org/jeffandeko/Stackoverflow-lite)![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg)![Depfu](https://img.shields.io/depfu/depfu/example-ruby.svg)![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website&style=social)
+[![Build Status](https://travis-ci.org/jeffandeko/Stackoverflow-lite.svg?branch=develop)](https://travis-ci.org/jeffandeko/Stackoverflow-lite)![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg)![Depfu](https://img.shields.io/depfu/depfu/example-ruby.svg)![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website&style=social)
 
 
 # Stackoverflow-lite
