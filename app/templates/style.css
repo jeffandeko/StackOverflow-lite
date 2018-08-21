@@ -352,8 +352,8 @@ button.sign {
     line-height:60px;
     text-size:35px;
     height:900px;
-    background-image: url('images/back1.jpg');
-    box-shadow: 2px 2px 8px rgb(3,3,3);
+    background-color:rgb(255,255,255);
+    box-shadow: 2px 2px 8px rgb(1,1,1);
 }
 
 
