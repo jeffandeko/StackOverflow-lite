@@ -1,4 +1,10 @@
-[![Build Status](https://travis-ci.org/jeffandeko/Stackoverflow-lite.svg?branch=develop)](https://travis-ci.org/jeffandeko/Stackoverflow-lite)(https://img.shields.io/packagist/l/doctrine/orm.svg)![Coveralls github](https://img.shields.io/coveralls/github/jekyll/jekyll.svg)![Depfu](https://img.shields.io/depfu/depfu/example-ruby.svg)![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=my-website&style=social)
+
+
+
+![AppVeyor branch](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg)![Packagist]![Coveralls github branch](https://img.shields.io/coveralls/github/jekyll/jekyll/master.svg)
+(https://img.shields.io/packagist/l/doctrine/orm.svg)![PyPI](https://img.shields.io/pypi/v/nine.svg)
+
+
 
 
 # Stackoverflow-lite
