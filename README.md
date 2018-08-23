@@ -1,11 +1,7 @@
 
 
 
-![AppVeyor branch](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg)![PyPI](https://img.shields.io/pypi/v/nine.svg)![Coveralls github branch](https://img.shields.io/coveralls/github/jekyll/jekyll/master.svg)![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
-
-
-
-
+![AppVeyor branch](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg) ![PyPI](https://img.shields.io/pypi/v/nine.svg) ![Coveralls github branch](https://img.shields.io/coveralls/github/jekyll/jekyll/master.svg) ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
 
 # Stackoverflow-lite
