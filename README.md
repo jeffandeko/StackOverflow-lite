@@ -1,8 +1,7 @@
 
 
 
-![AppVeyor branch](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg)![Packagist]![Coveralls github branch](https://img.shields.io/coveralls/github/jekyll/jekyll/master.svg)
-(https://img.shields.io/packagist/l/doctrine/orm.svg)![PyPI](https://img.shields.io/pypi/v/nine.svg)
+![AppVeyor branch](https://img.shields.io/appveyor/ci/gruntjs/grunt/master.svg)![PyPI](https://img.shields.io/pypi/v/nine.svg)
 
 
 
