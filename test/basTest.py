@@ -26,10 +26,10 @@ class QuestionsTestCase(BaseTestCase):
     def __init__(self, method_name='runTest'):
         super().__init__(methodName='runTest')
         self.methodName = method_name
-        self.endpoint = 'api/v1/stackendpoints/questions'
+        self.endpoint = 'api/v1/questions'
 
     def test_get_all_questions(self):
-        results = self.app.test_client.get_question('api/v1/stackendpoints/questions =[]')
+        results = self.app.test_client.get_question('api/v1/questions =[]')
         print(results)
         self.assertEqual(results.status_code, 200)
 
@@ -43,16 +43,16 @@ class QuestionsTestCase(BaseTestCase):
 
     def test_post_questions(self):
         # missing value field = bad
-        stack_question = {
+        question = {
             "id": 1,
             "title": "What is Python",
             "description": "give your answer in words",
             "answers": []
         }
 
-        response = self.client.post(self.endpoint, data=json.dumps(stack_question), content_type='application/json')
+        response = self.client.post(self.endpoint, data=json.dumps(question), content_type='application/json')
         self.assertEqual(response.status_code, 400)
-        response = self.client.post(self.endpoint, data=json.dumps(stack_question), content_type='application/json')
+        response = self.client.post(self.endpoint, data=json.dumps(question), content_type='application/json')
         self.assertEqual(response.status_code, 400)
 
     def test_question_update(self):
