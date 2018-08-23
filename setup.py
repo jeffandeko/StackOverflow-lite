@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='Stackoverflow-lite',
@@ -19,11 +19,6 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
-    ],
+    ]
 
-    keywords='rest restful api flask swagger openapi flask-restplus',
-
-    packages=find_packages(),
-
-    install_requires=['flask-restplus==0.9.2', 'Flask-SQLAlchemy==2.1'],
 )
